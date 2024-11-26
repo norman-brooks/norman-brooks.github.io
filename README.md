@@ -9,7 +9,7 @@ Here is a display of websites created for this course:
   <br>Academy Cinemas<br>
   A theater website styled heavily with CSS.
 
-  https://norman-brooks.github.io/CSS-Effects-Cliff
+  https://norman-brooks.github.io/CSS-Effects-Cliff/Cliff_Pic.html
   <br>CSS-Effects-Cliff<br>
   Using an already existing website of mine I used CSS effects to import the font(s).
   
