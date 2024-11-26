@@ -28,6 +28,7 @@ Here is a display of websites created for this course:
 
   
 =======
+<<<<<<< HEAD
 readme.me
 
 Final Assignment for HTML and CSS
