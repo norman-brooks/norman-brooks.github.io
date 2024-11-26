@@ -137,8 +137,16 @@ footer{
     position: fixed;
     right: 0;
     bottom: 0;
-    min-width: 75%;
+    min-width: 100%;
     z-index: -1;
+}
+
+video {
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    overflow-x: 0;
+    overflow-y: 0;
 }
 
 @media screen and(max-width: 576px) {
