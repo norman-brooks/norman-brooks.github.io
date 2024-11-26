@@ -16,9 +16,6 @@ Here is a display of websites created for this course:
   <br>HTML CSS CHALLENGES<br>
   Created this site based on the 12 different steps of HTML and CSS during the end
   
-  <br>one page website<br>
-  A site I had of a British car company that I added different effects to
-  
   <br>Portfolio website<br>
   Used the Portfolio template given and customized it to myself and changed several styling such as colors, images and video
   
