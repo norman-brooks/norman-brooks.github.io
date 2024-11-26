@@ -18,7 +18,7 @@ Here is a display of websites created for this course:
   Using 3 different images of Japan this shows just a few things of what hover effects can do
   CSS
   
- https://norman-brooks.github.io/HTML_CSS_CHALLENGES
+HTML_CSS_CHALLENGES
   <br>HTML_CSS_CHALLENGES<br>
   Created this site based on the 12 different steps of HTML and CSS during the end
   
