@@ -7,30 +7,29 @@ Here is a display of websites created for this course:
   
   https://norman-brooks.github.io/Academy-Cinemas
   <br>Academy Cinemas<br>
-  A theater website styled heavily with CSS
+  A theater website styled heavily with CSS.
 
   https://norman-brooks.github.io/CSS-Effects-Cliff
   <br>CSS-Effects-Cliff<br>
-  Using an already existing website of mine I used CSS effects to import the font(s)
+  Using an already existing website of mine I used CSS effects to import the font(s).
   
  https://norman-brooks.github.io/CSS-Effects-Japan
   <br>CSS-Effects-Japan<br>
-  Using 3 different images of Japan this shows just a few things of what hover effects can do
-  CSS
+  Using 3 different images of Japan this shows just a few of the hover effects capable of CSS.
   
 https://norman-brooks.github.io/HTML_CSS_CHALLENGES
   <br>HTML_CSS_CHALLENGES<br>
-  Created this site based on the 12 different steps of HTML and CSS during the end
+  Created this site based on the 12 different steps of HTML and CSS during the end.
   
   https://norman-brooks.github.io/Portfolio-website
   <br>Portfolio-website<br>
-  Used the Portfolio template given and customized it to myself and changed several styling such as colors, images and video
+  Used the Portfolio template given and customized it to myself and changed several styling such as colors, images and video.
   
   https://norman-brooks.github.io/Simple_Recipes
   <br>Simple_Recipes<br>
-  A site with multiple recipes accompanied by pictures. The styling has a cool "flip" effect on recipe cards
+  A site with multiple recipes accompanied by pictures. The styling has a cool "flip" effect on recipe cards.
   
   https://norman-brooks.github.io/The-Petshop-Website
   <br>The Petshop Website<br>
-  A website styled to advertise a pet shop-one of the first on this course
+  A website styled to advertise a pet shop. One of the first assignments on this course.
 
