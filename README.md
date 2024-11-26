@@ -21,7 +21,7 @@ https://norman-brooks.github.io/HTML_CSS_CHALLENGES
   <br>HTML_CSS_CHALLENGES<br>
   Created this site based on the 12 different steps of HTML and CSS during the end.
   
-  https://norman-brooks.github.io/Portfolio-website
+  https://norman-brooks.github.io/Portfolio-Website/
   <br>Portfolio-website<br>
   Used the Portfolio template given and customized it to myself and changed several styling such as colors, images and video.
   
@@ -29,7 +29,4 @@ https://norman-brooks.github.io/HTML_CSS_CHALLENGES
   <br>Simple_Recipes<br>
   A site with multiple recipes accompanied by pictures. The styling has a cool "flip" effect on recipe cards.
   
-  https://norman-brooks.github.io/The-Petshop-Website
-  <br>The Petshop Website<br>
-  A website styled to advertise a pet shop. One of the first assignments on this course.
 
