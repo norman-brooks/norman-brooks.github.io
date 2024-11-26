@@ -1,7 +1,7 @@
 
 readme.me
 
-Final Assignment for HTML and CSS
+Final Assignment 
 
 Here is a display of websites created for this course:
   
