@@ -9,7 +9,7 @@ var modals = document.querySelectorAll(".recipe-modal");
 // GET THE <SPAN> ELEMENT THAT CLOSES THE MODAL
 var closeBtn = document.getElementsByClassName("close-btn");
 
-//When the user clicks the recipe button, open the modal
+// When the user clicks the recipe button, open the modal
 for (var i = 0; i < btns.length; i++) {
     btns[i].onclick = function (event) {
             modal = document.querySelector(event.target.getAttribute
