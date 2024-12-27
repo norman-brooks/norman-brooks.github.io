@@ -425,16 +425,17 @@ input[type="button"]:hover{
 /*Sets up the content within the div tag containing the ID
 contact to be centered  on the webpage*/
 #contact{
-    display: block;
+    display: inline-block;
     margin-bottom: 70px;
+   
 }
 
 form{
     display: table; /*This will display the form in a table
     format as rows and columns*/
     padding: 15px;
-    margin-left: auto;
-    margin-right: auto; /*The browser will automatically
+    margin-right: auto;
+    margin-left: auto; /*The browser will automatically
     calculate margins to center the form on the screen*/
 }
 
