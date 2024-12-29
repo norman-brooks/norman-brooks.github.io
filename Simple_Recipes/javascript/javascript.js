@@ -6,8 +6,7 @@ var btns = document.querySelectorAll("input.modal-button");
 //DEFINES ALL MODALS FOR EACH RECIPE
 var modals = document.querySelectorAll(".recipe-modal");
 
-function (.recipe-modal) {setTimeout(3000);
-}
+
 // GET THE <SPAN> ELEMENT THAT CLOSES THE MODAL
 var closeBtn = document.getElementsByClassName("close-btn");
 
