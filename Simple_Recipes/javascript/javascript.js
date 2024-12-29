@@ -6,6 +6,8 @@ var btns = document.querySelectorAll("input.modal-button");
 //DEFINES ALL MODALS FOR EACH RECIPE
 var modals = document.querySelectorAll(".recipe-modal");
 
+function (.recipe-modal) {setTimeout(3000);
+}
 // GET THE <SPAN> ELEMENT THAT CLOSES THE MODAL
 var closeBtn = document.getElementsByClassName("close-btn");
 
@@ -15,10 +17,11 @@ for (var i = 0; i < btns.length; i++) {
             let modal = document.querySelector
             (event.target.getAttribute ("href")); 
             modal.style.display = "block";
-            
-            
-    }
+        }; 
 }
+
+
+
 
 //When the user clicks on <span> (x) close the modal
 for (var i = 0; i < closeBtn.length; i++) {
@@ -27,7 +30,7 @@ for (var i = 0; i < closeBtn.length; i++) {
         if (modals[index].style) {
             modals[index].style.display = "none";
         }
-        
+       
      }  
     }
 }
@@ -49,7 +52,7 @@ document.getElementById('contactForm').addEventListener('submit',
        //Email pattern checks for all symbols that would be needed
        //for an email address such as the @ and . and the text
        //that would come before, between and after.
-       const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z] {2,4}$/;
+       const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
       
        //Use this variable to display messages if fields are filled
        //out or thank you message
@@ -72,7 +75,7 @@ document.getElementById('contactForm').addEventListener('submit',
         email: email,
         phone: phone,
         message: message,
-        subscribe: document.getElementById('subscription').checked
+        subscribe: document.getElementById('subscription')?.checked
        };
 
        //Displays what the user wrote in the console
