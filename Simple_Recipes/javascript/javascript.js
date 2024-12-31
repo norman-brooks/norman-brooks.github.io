@@ -16,7 +16,7 @@ for (var i = 0; i < btns.length; i++) {
         let modal = document.querySelector
             (event.target.getAttribute("href"));
         modal.style.display = "block";
-        setTimeout(function() {modal.style.display= "block"}, 2000);
+        setTimeout(function() {modal.style.display= "block";}, 2000);
 
     };
 } 
