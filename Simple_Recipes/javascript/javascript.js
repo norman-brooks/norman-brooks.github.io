@@ -12,14 +12,19 @@ var closeBtn = document.getElementsByClassName("close-btn");
 
 // When the user clicks the recipe button, open the modal
 for (var i = 0; i < btns.length; i++) {
+    
     btns[i].onclick = function (event) {
-        let modal = document.querySelector
-            (event.target.getAttribute("href"));
-        modal.style.display = "block";
-        setTimeout(function() {modal.style.display= "block";}, 2000);
+        let modal = document.querySelector(event.target.getAttribute("href"));
+        
+    };
+        function hideModal() {
+            setTimeout(function() {
+                modal.style.display = "none";
+            }, 2000);
+        }
 
     };
-} 
+ 
 
 
 

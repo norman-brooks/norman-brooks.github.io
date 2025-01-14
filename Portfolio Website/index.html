@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--HEAD-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+    <title>Norman Brooks' Portfolio</title>
+    <link rel="shortcut icon" type="img/png" href="images/coding_icon.png">
+    <link rel="stylesheet" type="text/css" href="stylesheet/2portfolio.css">
+</head>
+
+<!--BODY-->
+
+<body class="Background">
+
+    <!--NAVBAR-->
+    <div class="Navbar">
+        <a class="active" href="#Home">Home</a>
+        <!--New section added-->
+        <a href="#Slideshow">Slideshow</a>
+        <a href="#About">About</a>
+        <a href="#GitHub">GitHub</a>
+        
+        <!--Onclick and ondblclick functions added to open and close the 
+        contact form-->
+        <a href="#Contact" onclick="openForm()" ondblclick="closeForm()" class="contact">Contact</a>
+    </div>
+
+    <!--BREAKS INSERTED TO ADD SPACE BETWEEN NAVBAR & FIRST HEADING-->
+    <br>
+    <br>
+
+    <!--BACKGROUND VIDEO-->
+    <div id="Home">
+        <video autoplay muted loop id="Typing_Video">
+            <source src="images/typing.mp4" type="video/mp4">
+            <!--DISPLAY MESSAGE IF VIDEO FAILS-->
+            Your broswer does not support HTML5 video.
+        </video>
+    </div>
+
+    <!--VIDEO TEXT-->
+    <div class="Video_Text">
+        <h1 class="white-text">Norman Brooks' Portfolio</h1>
+        <strong>
+            <p class="center">
+                <q>The computer programmer is a creator of universes for which he alone is the lawgiver.
+                    <br>No playwright, no stage director, no emperor, however powerful, has ever exercised such
+                    absoluteauthority to arrange a stage or
+                    <br>field of battle and to command such unswervingly dutiful actors or troops.
+                </q>
+                <br> -Joseph Weizenbaum
+                <br>
+                <br> My name is Norman Brooks. Welcome to my Portfolio Website. On it, I will tell you about
+                mybackground and experience.
+                <br>
+                <br> Thank you for stopping by and enjoy!
+            </p>
+        </strong>
+    </div>
+
+    <!--Slidshow section added-->
+    <div id="Slideshow">
+        <div id="Slideshow_Container">
+            <!--Slide 1 of 5-->
+            <div class="mySlides fade">
+                <img class="Slideshow_Images" src="images/self.jpg" alt="Picture of Myself">
+                <div class="text1">I'm available to assist you on your project!</div>
+            </div>
+            <!--Slide 2 of 5-->
+            <div class="mySlides fade">
+                <img class="Slideshow_Images" src="images/HTML_CSS_and_JavaScript.jpeg" alt="HTML, CSS, and JS logos">
+                <div class="text">I am a develeloper, trained in:<br>
+                    HTML, CSS, JavaScript,</div>
+            </div>
+            <!--Slide 3 of 5-->
+            <div class="mySlides fade">
+                <img class="Slideshow_Images" src="images/Python.png" alt="Python logo">
+                <div class="text">the popular programming language Python,</div>
+            </div>
+            <!--Slide 4 of 5-->
+            <div class="mySlides fade">
+                <img class="Slideshow_Images" src="images/SQL_and_Database.jpg" alt="SQL Logo">
+                <div class="text">backend development, databases and SQL.</div>
+            </div>
+            <!--Slide 5 of 5-->
+            <div class="mySlides fade">
+                <img class="Slideshow_Images" src="images/laptop_park.jpg" alt="Laptop in a park">
+                <div class="text"><a class="white-text contact" onclick="openForm()">Contact me now!</a></div>
+            </div>
+            <!--Previous and Next Buttons-->
+            <a class="Previous" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="Next" onclick="plusSlides(1)">&#10095</a>
+        </div>
+        <br><!--Adds a space between the slideshow images and the dots-->
+
+        <!--Slideshow dots (these are another way for users to naviage 
+        through the slideshow)-->
+        <div style="text-align: center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+    </div>
+
+    <!--ABOUT SECTION-->
+    <div class="Row" id="About">
+        <!--LEFT COLUMN-->
+        <div class="Column_2">
+            <img src="images/servers.jpg" alt="Servers">
+        </div>
+        <!--RIGHT COLUMN-->
+        <div class="Column_1">
+            <h1>About</h1>
+            <p>
+                I am a developer who enjoys coding!
+                <br>
+                <br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech
+                    Academy</a>'s Software Developer Boot Camp, and trained and experienced in the following web and
+                programming languages: HTML, CSS, JavaScript, SQL, Python and more.
+                <br>
+                <br>I am a Junior Software Developer and would love to work with you on your next project.
+                <a onclick="openForm()" class="Contact">Contact</a> me below!
+            </p>
+        </div>
+    </div>
+
+    <!--GITHUB SECTION-->
+    <div class="Row" id="GitHub">
+        <!--LEFT COLUMN-->
+        <div class="Column_1">
+            <h1>GitHub</h1>
+            <p>
+                You can view my coding projects on my GitHub profile here:
+                <br>
+            <p class="center"><a href="https://github.com/norman-brooks?tab=repositories" target="_blank">Norman's
+                    GitHub</a></p>
+            </p>
+        </div>
+        <!--RIGHT COLUMN-->
+        <div class="Column_2">
+            <a href="https://github.com/norman-brooks?tab=repositories" target="_blank"><img src="images/github.jpg"
+                    alt="GitHub Logo"></a>
+        </div>
+    </div>
+
+    <!--CONTACT SECTION-->
+    <div id="Contact">
+        <button onclick="openForm()" class="Pop_Up_Button">CONTACT</button>
+        <div CLASS="form-popup" id="myForm">
+            <form action="https://formspree.io/info@learncodinganywhere.com"
+            method="POST" class="form-container"> <!--Here we are using a free online
+        service from https://formspree.io/ to send our contact form to an email address of our
+        chossing-note: it will not run unliess live on the internet, you have to
+        push it to your online website first-->
+
+            
+        
+        
+            <h1>Contact</h1>
+           
+                <!--HERE WE'RE UTILIZING A 3RD PARTY SERVICE TO SUBMIT CONTACT DATA, INSERT FORMSPREEENPOINT IN THE ACTION ATTRIBUTE-->
+                <label><b>Name:</b></label>
+                <input type="text" placeholder="Please enter your name here" name="name required">
+                <label for="phone"><b>Phone</b></label>
+                <input type="text" placeholder="Type your phone number here" name="phone">
+                <label for="email"><b>Email:</b></label>
+                <input type="text"  placeholder="Type your email address here" name="email" required>
+                <label><b>Message:</b></label>
+                <input type="text" placeholder="Type your message here" name="message">
+                
+                <button type="submit" class="btn">SUBMIT</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">CLOSE</button>
+            </form>
+        </div>
+    </div>
+    <!--FOOTER SECTION-->
+    <footer>
+        <p>
+        <p class="center">NB Programming&copy; <br><br><a href="mailto: nbprogramming@outlook.com" target="_blank">Email
+                me here!</a></p>
+        </p>
+    </footer>
+    <script src="JS/javascript.js"></script>
+</body>
+
+</html>
